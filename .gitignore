@@ -11,6 +11,7 @@ build/*
 DerivedData/
 ScalableMonorepo/Derived/
 Modules/*/Derived/
+Modules/*/*/Derived/
 
 ## Obj-C/Swift specific
 *.hmap
