@@ -20,15 +20,16 @@ final class WelcomeView: UIView {
     // MARK: - Views
     
     private lazy var backgroundImageView: UIImageView = {
-        let image = UIImage(asset: LoginAssets.Backgrounds.backgroundWelcome)
-        let imageView = UIImageView(image: image)
+        let imageView = UIImageView()
+        imageView.backgroundColor = .systemBlue
         imageView.contentMode = .scaleToFill
         return imageView
     }()
     
     private lazy var logoImageView: UIImageView = {
-        let image = UIImage(asset: Assets.Imagotipos.imagotipoPortoHorizontal)
-        return UIImageView(image: image)
+        let imageView = UIImageView()
+        imageView.backgroundColor = .white
+        return imageView
     }()
     
     private lazy var titleLabel: UILabel = {
@@ -43,8 +44,8 @@ final class WelcomeView: UIView {
         let button = UIButton()
         button.layer.cornerRadius = 4
         button.setTitle(LoginStrings.Welcome.begin, for: .normal)
-        button.setTitleColor(Colors.brandColorSecondary.color, for: .normal)
-        button.setTitleColor(Colors.brandColorDarker.color, for: .highlighted)
+        button.setTitleColor(Colors.neutralGrey01.color, for: .normal)
+        button.setTitleColor(Colors.neutralGrey02.color, for: .highlighted)
         button.backgroundColor = Colors.neutralGrey04.color
         button.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: .semibold)
         button.addTarget(self, action: #selector(didTouchBeginButton), for: .touchUpInside)
@@ -54,7 +55,7 @@ final class WelcomeView: UIView {
     
     private lazy var versionLabel: UILabel = {
         let label = UILabel()
-        label.text = LoginStrings.Welcome.version("1.28.0")
+        label.text = LoginStrings.Welcome.version("1.0.0")
         label.textColor = Colors.neutralGrey04.color
         label.textAlignment = .center
         label.font = UIFont.systemFont(ofSize: 16, weight: .semibold)

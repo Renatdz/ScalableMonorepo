@@ -25,7 +25,7 @@ final class PasswordViewController: ViewController<PasswordInteracting, UIView> 
     
     private lazy var containerView: UIView = {
         let view = UIView()
-        view.backgroundColor = Colors.neutralColorWhite.color
+        view.backgroundColor = .white
         view.layer.cornerRadius = Layout.Size.containerRadius
         view.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
         return view
@@ -42,7 +42,7 @@ final class PasswordViewController: ViewController<PasswordInteracting, UIView> 
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.text = "Digite sua senha"
-        label.textColor = Colors.neutralDarkest.color
+        label.textColor = Colors.neutralGrey01.color
         label.font = UIFont.systemFont(ofSize: 18, weight: .regular)
         return label
     }()
@@ -57,8 +57,8 @@ final class PasswordViewController: ViewController<PasswordInteracting, UIView> 
     private lazy var continueButton: UIButton = {
         let button = UIButton()
         button.setTitle("Continuar", for: .normal)
-        button.setTitleColor(Colors.neutralColorWhite.color, for: .normal)
-        button.backgroundColor = Colors.brandColorPrimary.color
+        button.setTitleColor(.white, for: .normal)
+        button.backgroundColor = .systemBlue
         button.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: .semibold)
         button.addTarget(self, action: #selector(didTouchContinueButton), for: .touchUpInside)
         return button
@@ -66,7 +66,7 @@ final class PasswordViewController: ViewController<PasswordInteracting, UIView> 
     
     private lazy var paddingView: UIView = {
         let view = UIView()
-        view.backgroundColor = Colors.brandColorPrimary.color
+        view.backgroundColor = .systemBlue
         return view
     }()
     

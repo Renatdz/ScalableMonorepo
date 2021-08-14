@@ -1,14 +1,7 @@
-//
-//  Porto_SeguroTests.swift
-//  Porto SeguroTests
-//
-//  Created by Renato Mendes on 14/07/21.
-//
-
 import XCTest
-@testable import Porto_Seguro
+@testable import ScalableMonorepo
 
-class Porto_SeguroTests: XCTestCase {
+class DefaultTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

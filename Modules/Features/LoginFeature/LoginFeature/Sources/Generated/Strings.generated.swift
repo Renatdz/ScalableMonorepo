@@ -14,7 +14,7 @@ internal enum LoginStrings {
   internal enum Welcome {
     /// Iniciar sessão
     internal static let begin = LoginStrings.tr("Localizable", "welcome.begin")
-    /// Sua Porto Seguro em um só lugar.
+    /// Sua Empresa em um só lugar.
     internal static let title = LoginStrings.tr("Localizable", "welcome.title")
     /// versão %@
     internal static func version(_ p1: Any) -> String {

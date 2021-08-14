@@ -16,7 +16,7 @@ public protocol ApiEndpointExposable {
 public extension ApiEndpointExposable {
     var baseURL: URL {
         // FIXME: URL MUST be in proper file
-        guard let url = URL(string: "https://apidev.digitalportoseguro.com.br/") else {
+        guard let url = URL(string: "https://apidev.brand.com/") else {
             fatalError("You need to define the api url")
         }
         return url
