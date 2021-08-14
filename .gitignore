@@ -9,7 +9,7 @@
 .build
 build/*
 DerivedData/
-PortoSeguro/Derived/
+ScalableMonorepo/Derived/
 Modules/*/Derived/
 
 ## Obj-C/Swift specific
