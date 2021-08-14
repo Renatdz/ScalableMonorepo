@@ -1,0 +1,21 @@
+input_dir: UIHelper
+output_dir: UIHelper/Sources/Generated/
+xcassets:
+  - inputs: Resources/Assets.xcassets
+    outputs:
+      - templateName: swift5
+        output: Assets.generated.swift
+        params:
+          publicAccess: true
+          forceProvidesNamespaces: true
+          enumName: 'Assets'
+          bundle: UIHelperResources.bundle
+  - inputs: Resources/Colors.xcassets
+    outputs:
+      - templateName: swift5
+        output: Colors.generated.swift
+        params:
+          publicAccess: true
+          forceProvidesNamespaces: true
+          enumName: 'Colors'
+          bundle: UIHelperResources.bundle

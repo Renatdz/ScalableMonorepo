@@ -1,0 +1,12 @@
+input_dir: ScalableMonorepo
+output_dir: ScalableMonorepo/Sources/Generated/
+xcassets:
+  inputs: Resources/Assets.xcassets
+  outputs:
+    templateName: swift5
+    output: Assets.generated.swift
+    params:
+      publicAccess: false
+      forceProvidesNamespaces: true
+      enumName: 'SMAssets'
+      bundle: ScalableMonorepoResources.bundle
