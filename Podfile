@@ -53,7 +53,7 @@ target 'LoginFeature' do
 end
 
 target 'HomeFeature' do
-    project 'Modules/Features/LoginFeature/LoginFeature.project'
+    project 'Modules/Features/HomeFeature/HomeFeature.project'
     
     ui_helper_pods
     
