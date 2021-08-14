@@ -11,6 +11,7 @@
 		0AF5CB157A30098DE84B31D6 /* EndpointExposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB7493951722CE90923DCC /* EndpointExposable.swift */; };
 		14444CA95017CCEA5817E77E /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96F73D1C6807100F5A2615 /* ContentType.swift */; };
 		241BF2956F3B4BC259396347 /* URLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B12B1B66C77DD2BE480D3A /* URLSession+Extension.swift */; };
+		3C9D9CC5E6047AC722F55B0D /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB137A421B42EEDEF32A90 /* Dictionary+Extension.swift */; };
 		3DA0987EAD62EEB6AB8C06DF /* ImageDownloaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722FD758A15FCFA1251AE6A0 /* ImageDownloaderProtocol.swift */; };
 		3FB0DCCC18C02F0BFA28FCB9 /* NoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C7FC67C19DCFC2E2FE4F75 /* NoContent.swift */; };
 		597EB929D1EF8AA9DCBE6DA4 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BBCDD9693AB2726BEB8549 /* HTTPMethod.swift */; };
@@ -54,6 +55,7 @@
 		47C7FC67C19DCFC2E2FE4F75 /* NoContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoContent.swift; sourceTree = "<group>"; };
 		4BCC41870600C391FE073A5F /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
 		722FD758A15FCFA1251AE6A0 /* ImageDownloaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderProtocol.swift; sourceTree = "<group>"; };
+		89DB137A421B42EEDEF32A90 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
 		8F7794E54DEE093707BD2822 /* NetworkServiceAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkServiceAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E4761248DA2E67C29903FE /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
 		A5E9D15AF9DB5FBBC0C91EEE /* ImageDownloadError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadError.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				0D0C3D3A43E4B8D284571611 /* Collection+Extension.swift */,
+				89DB137A421B42EEDEF32A90 /* Dictionary+Extension.swift */,
 				4BCC41870600C391FE073A5F /* URLRequest+Extension.swift */,
 				B6B12B1B66C77DD2BE480D3A /* URLSession+Extension.swift */,
 			);
@@ -210,7 +213,7 @@
 		40DC3C1BFDAED1D2083519BD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "Porto Seguro";
+				ORGANIZATIONNAME = "Scalable Monorepo";
 				TargetAttributes = {
 				};
 			};
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1D3E1F7B48A056112CC308F /* Collection+Extension.swift in Sources */,
+				3C9D9CC5E6047AC722F55B0D /* Dictionary+Extension.swift in Sources */,
 				762AD0CDE95BFF12EACF5742 /* URLRequest+Extension.swift in Sources */,
 				241BF2956F3B4BC259396347 /* URLSession+Extension.swift in Sources */,
 				851B7D7DC35D5679D538A5B3 /* ImageDownloadError.swift in Sources */,
@@ -302,7 +306,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.NetworkServiceAPI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.NetworkServiceAPI;
 				PRODUCT_NAME = NetworkServiceAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -392,7 +396,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.NetworkServiceAPI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.NetworkServiceAPI;
 				PRODUCT_NAME = NetworkServiceAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

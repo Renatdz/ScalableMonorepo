@@ -462,7 +462,7 @@
 		A3679FE33D4821E934375D6C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "Porto Seguro";
+				ORGANIZATIONNAME = "Scalable Monorepo";
 				TargetAttributes = {
 				};
 			};
@@ -645,7 +645,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Derived/InfoPlists/HomeFeatureResources.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.HomeFeature.resources;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.HomeFeature.resources;
 				PRODUCT_NAME = HomeFeatureResources;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -720,7 +720,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.HomeFeatureSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.HomeFeatureSample;
 				PRODUCT_NAME = HomeFeatureSample;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -750,7 +750,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.HomeFeature;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.HomeFeature;
 				PRODUCT_NAME = HomeFeature;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -840,7 +840,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.HomeFeature;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.HomeFeature;
 				PRODUCT_NAME = HomeFeature;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -864,7 +864,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.HomeFeatureTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.HomeFeatureTests;
 				PRODUCT_NAME = HomeFeatureTests;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -885,7 +885,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.HomeFeatureTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.HomeFeatureTests;
 				PRODUCT_NAME = HomeFeatureTests;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -909,7 +909,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.HomeFeatureSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.HomeFeatureSample;
 				PRODUCT_NAME = HomeFeatureSample;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -926,7 +926,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Derived/InfoPlists/HomeFeatureResources.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.HomeFeature.resources;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.HomeFeature.resources;
 				PRODUCT_NAME = HomeFeatureResources;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";

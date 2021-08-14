@@ -161,7 +161,7 @@
 		4482361A7FF61549AF7F3D90 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "Porto Seguro";
+				ORGANIZATIONNAME = "Scalable Monorepo";
 				TargetAttributes = {
 				};
 			};
@@ -242,7 +242,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.LoginFeatureAPI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.LoginFeatureAPI;
 				PRODUCT_NAME = LoginFeatureAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -326,7 +326,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.LoginFeatureAPI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.LoginFeatureAPI;
 				PRODUCT_NAME = LoginFeatureAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

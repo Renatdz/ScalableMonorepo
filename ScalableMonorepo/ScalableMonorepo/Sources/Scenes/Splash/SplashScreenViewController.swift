@@ -18,7 +18,7 @@ final class SplashScreenViewController: UIViewController {
     
     // MARK: - Views
     private lazy var backgroundImageView: UIImageView = {
-        let image = UIImage(asset: PSAssets.Backgrounds.backgroundSplashScreen)
+        let image = UIImage(asset: SMAssets.Backgrounds.backgroundSplashScreen)
         return UIImageView(image: image)
     }()
     

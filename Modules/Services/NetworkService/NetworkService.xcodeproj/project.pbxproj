@@ -442,7 +442,7 @@
 		EB3FED4C698FF2A4ADFEA857 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "Porto Seguro";
+				ORGANIZATIONNAME = "Scalable Monorepo";
 				TargetAttributes = {
 				};
 			};
@@ -623,7 +623,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Derived/InfoPlists/NetworkServiceResources.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.NetworkService.resources;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.NetworkService.resources;
 				PRODUCT_NAME = NetworkServiceResources;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -653,7 +653,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.NetworkService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.NetworkService;
 				PRODUCT_NAME = NetworkService;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -673,7 +673,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Derived/InfoPlists/NetworkServiceResources.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.NetworkService.resources;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.NetworkService.resources;
 				PRODUCT_NAME = NetworkServiceResources;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -702,7 +702,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.NetworkService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.NetworkService;
 				PRODUCT_NAME = NetworkService;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -780,7 +780,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.NetworkServiceSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.NetworkServiceSample;
 				PRODUCT_NAME = NetworkServiceSample;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -801,7 +801,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.NetworkServiceTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.NetworkServiceTests;
 				PRODUCT_NAME = NetworkServiceTests;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -824,7 +824,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.NetworkServiceSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.NetworkServiceSample;
 				PRODUCT_NAME = NetworkServiceSample;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -903,7 +903,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.NetworkServiceTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.NetworkServiceTests;
 				PRODUCT_NAME = NetworkServiceTests;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";

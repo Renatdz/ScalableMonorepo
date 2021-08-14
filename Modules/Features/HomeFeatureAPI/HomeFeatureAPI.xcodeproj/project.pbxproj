@@ -147,7 +147,7 @@
 		A73B3DDC9F3EC75860B5190A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "Porto Seguro";
+				ORGANIZATIONNAME = "Scalable Monorepo";
 				TargetAttributes = {
 				};
 			};
@@ -226,7 +226,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.HomeFeatureAPI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.HomeFeatureAPI;
 				PRODUCT_NAME = HomeFeatureAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -366,7 +366,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.HomeFeatureAPI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.HomeFeatureAPI;
 				PRODUCT_NAME = HomeFeatureAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

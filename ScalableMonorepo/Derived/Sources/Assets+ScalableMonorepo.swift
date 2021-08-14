@@ -1,5 +1,7 @@
 // swiftlint:disable all
-// Generated using SwiftGen — https://github.com/SwiftGen/SwiftGen
+// swift-format-ignore-file
+// swiftformat:disable all
+// Generated using tuist — https://github.com/tuist/tuist
 
 #if os(macOS)
   import AppKit
@@ -9,44 +11,32 @@
   import UIKit
 #endif
 
-// Deprecated typealiases
-@available(*, deprecated, renamed: "ColorAsset.Color", message: "This typealias will be removed in SwiftGen 7.0")
-internal typealias AssetColorTypeAlias = ColorAsset.Color
-@available(*, deprecated, renamed: "ImageAsset.Image", message: "This typealias will be removed in SwiftGen 7.0")
-internal typealias AssetImageTypeAlias = ImageAsset.Image
-
 // swiftlint:disable superfluous_disable_command file_length implicit_return
 
 // MARK: - Asset Catalogs
 
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
-internal enum SMAssets {
-  internal static let accentColor = ColorAsset(name: "AccentColor")
-  internal enum Backgrounds {
-    internal static let backgroundSplashScreen = ImageAsset(name: "background_splash_screen")
-  }
-  internal enum Imagotipos {
-    internal static let imagotipoPorto = ImageAsset(name: "imagotipo_porto")
-  }
-  internal enum Logotipo {
-    internal static let logoPorto = ImageAsset(name: "logo_porto")
-  }
+public enum ScalableMonorepoAsset {
+  public static let accentColor = ScalableMonorepoColors(name: "AccentColor")
+  public static let backgroundSplashScreen = ScalableMonorepoImages(name: "background_splash_screen")
+  public static let imagotipoPorto = ScalableMonorepoImages(name: "imagotipo_porto")
+  public static let logoPorto = ScalableMonorepoImages(name: "logo_porto")
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 
 // MARK: - Implementation Details
 
-internal final class ColorAsset {
-  internal fileprivate(set) var name: String
+public final class ScalableMonorepoColors {
+  public fileprivate(set) var name: String
 
   #if os(macOS)
-  internal typealias Color = NSColor
+  public typealias Color = NSColor
   #elseif os(iOS) || os(tvOS) || os(watchOS)
-  internal typealias Color = UIColor
+  public typealias Color = UIColor
   #endif
 
   @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, *)
-  internal private(set) lazy var color: Color = {
+  public private(set) lazy var color: Color = {
     guard let color = Color(asset: self) else {
       fatalError("Unable to load color asset named \(name).")
     }
@@ -58,9 +48,9 @@ internal final class ColorAsset {
   }
 }
 
-internal extension ColorAsset.Color {
+public extension ScalableMonorepoColors.Color {
   @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, *)
-  convenience init?(asset: ColorAsset) {
+  convenience init?(asset: ScalableMonorepoColors) {
     let bundle = ScalableMonorepoResources.bundle
     #if os(iOS) || os(tvOS)
     self.init(named: asset.name, in: bundle, compatibleWith: nil)
@@ -72,22 +62,21 @@ internal extension ColorAsset.Color {
   }
 }
 
-internal struct ImageAsset {
-  internal fileprivate(set) var name: String
+public struct ScalableMonorepoImages {
+  public fileprivate(set) var name: String
 
   #if os(macOS)
-  internal typealias Image = NSImage
+  public typealias Image = NSImage
   #elseif os(iOS) || os(tvOS) || os(watchOS)
-  internal typealias Image = UIImage
+  public typealias Image = UIImage
   #endif
 
-  internal var image: Image {
+  public var image: Image {
     let bundle = ScalableMonorepoResources.bundle
     #if os(iOS) || os(tvOS)
     let image = Image(named: name, in: bundle, compatibleWith: nil)
     #elseif os(macOS)
-    let name = NSImage.Name(self.name)
-    let image = (bundle == .main) ? NSImage(named: name) : bundle.image(forResource: name)
+    let image = bundle.image(forResource: NSImage.Name(name))
     #elseif os(watchOS)
     let image = Image(named: name)
     #endif
@@ -98,10 +87,10 @@ internal struct ImageAsset {
   }
 }
 
-internal extension ImageAsset.Image {
+public extension ScalableMonorepoImages.Image {
   @available(macOS, deprecated,
-    message: "This initializer is unsafe on macOS, please use the ImageAsset.image property")
-  convenience init?(asset: ImageAsset) {
+    message: "This initializer is unsafe on macOS, please use the ScalableMonorepoImages.image property")
+  convenience init?(asset: ScalableMonorepoImages) {
     #if os(iOS) || os(tvOS)
     let bundle = ScalableMonorepoResources.bundle
     self.init(named: asset.name, in: bundle, compatibleWith: nil)
@@ -112,3 +101,6 @@ internal extension ImageAsset.Image {
     #endif
   }
 }
+
+// swiftlint:enable all
+// swiftformat:enable all

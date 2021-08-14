@@ -383,7 +383,7 @@
 		E84DE2FF77496970C136ECA4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "Porto Seguro";
+				ORGANIZATIONNAME = "Scalable Monorepo";
 				TargetAttributes = {
 				};
 			};
@@ -542,7 +542,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.DIServiceSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.DIServiceSample;
 				PRODUCT_NAME = DIServiceSample;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -572,7 +572,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.DIService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.DIService;
 				PRODUCT_NAME = DIService;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -598,7 +598,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.DIServiceSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.DIServiceSample;
 				PRODUCT_NAME = DIServiceSample;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -619,7 +619,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.DIServiceTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.DIServiceTests;
 				PRODUCT_NAME = DIServiceTests;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -699,7 +699,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.DIService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.DIService;
 				PRODUCT_NAME = DIService;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -781,7 +781,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.portoseguro.DIServiceTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalablemonorepo.DIServiceTests;
 				PRODUCT_NAME = DIServiceTests;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
