@@ -1,0 +1,21 @@
+input_dir: LoginFeature
+output_dir: LoginFeature/Sources/Generated/
+strings:
+  inputs: Resources/Localizable.strings
+  outputs:
+    templateName: structured-swift5
+    output: Strings.generated.swift
+    params: 
+      publicAccess: false
+      enumName: "LoginStrings"
+      bundle: LoginFeatureResources.bundle
+xcassets:
+  inputs: Resources/Assets.xcassets
+  outputs:
+    templateName: swift5
+    output: Assets.generated.swift
+    params:
+      publicAccess: false
+      forceProvidesNamespaces: true
+      enumName: 'LoginAssets'
+      bundle: LoginFeatureResources.bundle
