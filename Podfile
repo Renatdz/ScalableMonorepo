@@ -51,3 +51,20 @@ target 'LoginFeature' do
         ui_helper_pods
     end
 end
+
+target 'HomeFeature' do
+    project 'Modules/Features/LoginFeature/LoginFeature.project'
+    
+    ui_helper_pods
+    
+    target 'HomeFeatureTests' do
+        inherit! :search_paths
+    end
+    
+    target 'HomeFeatureSample' do
+        inherit! :complete
+        platform :ios, '14.0'
+        
+        ui_helper_pods
+    end
+end
